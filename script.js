@@ -73,9 +73,9 @@ cards('#relive',[['m1'],['m2'],['m3']],choose('#relive','#rnote','That one is sp
 
 // 10 memory lane (EDIT THE STORIES)
 cards('#lane',[
-  ['l1','','Write the story of memory 1 here ♥'],
-  ['l2','','Write the story of memory 2 here ♥'],
-  ['l3','','Write the story of memory 3 here ♥']
+  ['l1','','A day full of fun at Toggy Fun World, dreaming about our future together. ♥'],
+  ['l2','','College days, making memories for a lifetime. ♥'],
+  ['l3','',' bus stop reunion and a day roaming around Dhaka. ♥']
 ],d=>d.classList.toggle('open'));
 
 // 11 scratch
