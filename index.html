@@ -1,0 +1,94 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For You ♥</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="hearts"></div>
+
+<!-- 1 LOCK -->
+<section class="page on" id="lock"><div class="lock-card" id="lockCard"><div class="ico">♥</div><h2>Verify yourself</h2>
+<p class="txt">Other than my love, no one can enter it</p><div class="dots" id="dots"><span></span><span></span><span></span><span></span></div>
+<p class="msg" id="msg"></p><div class="keypad" id="keypad"></div></div></section>
+
+<!-- 2 -->
+<section class="page"><p class="big">“Excuse me, Miss. Can I steal 2 minutes of your time?”</p>
+<div class="row"><button class="btn" data-next>Yes ♥</button><button class="btn ghost run">No</button></div></section>
+
+<!-- 3 -->
+<section class="page"><p class="big">“I know you were looking forward to our date. I know cancelling at the last moment was disappointing. You deserved better communication from me. I'm genuinely sorry.”</p>
+<div class="row"><button class="btn" data-next>I am still angry</button><button class="btn ghost run">I don't want to talk with you</button></div></section>
+
+<!-- SONG (after the letter) -->
+<section class="page"><h2>Our soundtrack</h2>
+<p class="txt">Samjhawan — this one reminds me of you. (This one is for you ♥)</p>
+<button class="disk" id="disk">▶</button>
+<small>tap the disk 🎵</small>
+<button class="btn hid" id="pnext" data-next>Proceed</button></section>
+
+<!-- 4 GALLERY -->
+<section class="page"><h2>Our little moments</h2><p class="txt">Remember all our little moments? Here's why I never want to stop making memories with you.</p>
+<div class="frame" id="gal"><img id="gimg"></div><small>tap the photo ♥</small><button class="btn" data-next>Continue</button></section>
+
+<!-- 5 DATES -->
+<section class="page"><p class="big">“I owe you a proper date. This time, I'll make sure I don't disappoint you.”</p>
+<div class="cards" id="dates"></div><p class="txt" id="dnote">Choose one 👇</p><button class="btn hid" id="dnext" data-next>Continue</button></section>
+
+<!-- 6 LETTER -->
+<section class="page"><p class="big">“I can't go back and fix that day. But I can make sure you know that spending time with you is never something I take for granted.”</p>
+<p class="big">Yours, always. ❤️</p>
+<div class="row"><button class="btn" data-next>Proceed</button><button class="btn ghost run">No</button></div></section>
+
+<!-- 7 MAD + GAME -->
+<section class="page"><div id="m1"><p class="big">Are you still mad at me? 🥺</p><br>
+<div class="row"><button class="btn ghost run">Yes</button><button class="btn" id="mno">No</button></div></div>
+<div id="m2" class="hid"><p class="big">Let's play a game 🎮</p><br>
+<div class="row"><button class="btn" data-next>Proceed</button><button class="btn ghost run">No</button></div></div></section>
+
+<!-- 8 RELIVE -->
+<section class="page"><h2>Our memories</h2><p class="big">If you could relive one moment with me, which would it be?</p>
+<div class="cards c3" id="relive"></div><p class="txt" id="rnote"></p><button class="btn hid" id="rnext" data-next>Continue</button></section>
+
+<!-- 9 QUIZ TYPE -->
+<section class="page"><h2>How well do you know us?</h2>
+<label class="txt">Where did we first meet?<input placeholder="type here..."></label>
+<label class="txt">What's your favourite memory of us?<input placeholder="type here..."></label>
+<label class="txt">What's one little secret only we know?<input placeholder="type here..."></label>
+<button class="btn" data-next>Done ♥</button></section>
+
+<!-- 10 MEMORY LANE -->
+<section class="page"><h2>Our memory lane</h2><p class="txt">Tap a photo to reveal the story 💌</p>
+<div class="cards c3" id="lane"></div><button class="btn" data-next>Continue</button></section>
+
+<!-- 11 SCRATCH -->
+<section class="page"><h2>Scratch to reveal</h2>
+<div class="scr"><p class="big">I love you more than anything you know and i will be always there for you</p><canvas id="sc" width="300" height="170"></canvas></div>
+<button class="btn hid" id="snext" data-next>Continue</button></section>
+
+<!-- 12 WHEEL -->
+<section class="page"><h2>Spin the love wheel</h2><div class="wh"><i>▼</i><canvas id="wc" width="300" height="300"></canvas></div>
+<button class="btn" id="spin">SPIN</button><p class="txt" id="wnote"></p><button class="btn hid" id="wnext" data-next>Continue</button></section>
+
+
+
+<!-- 14 -->
+<section class="page"><p class="big">Are you still mad at me now? 🥺</p>
+<div class="row"><button class="btn" data-next>Yes</button><button class="btn ghost run">No</button></div></section>
+
+<!-- 15 FUN -->
+<section class="page"><div id="fun"></div></section>
+
+<!-- 16 -->
+<section class="page"><p class="big">Are you mad at me still?</p><button class="btn" data-next>nooooooooo</button></section>
+
+<!-- 17 FINAL -->
+<!-- 17 FINAL -->
+<section class="page">
+  <div class="vid">
+    <video id="fv" src="final.mp4" poster="final.jpg" playsinline preload="metadata"></video>
+    <button class="vplay" id="vplay">▶</button>
+  </div>
+  <small>tap to play 💌</small>
+  <h1>LOVE U A LOTTTT ♥</h1>
+  <p class="txt">To find me, call me on <b>015****5650</b> or ring the bell at my house 🏠</p>
+</section>
+<div id="yt"></div>
+<script src="script.js"></script></body></html>
